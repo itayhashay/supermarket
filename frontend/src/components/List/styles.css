@@ -1,0 +1,16 @@
+.card {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.card:first-child {
+    text-align: left;
+}
+
+.card>img {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    height: auto;
+}

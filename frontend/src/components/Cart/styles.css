@@ -1,0 +1,21 @@
+    .MuiCard-root {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+    }
+
+    .MuiCard-root {
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+
+    .MuiCardActions-root {
+        margin-top: auto;
+    }
+
+    .cart-cards {
+        text-align: left;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
