@@ -79,7 +79,7 @@ const App = () => {
   return (
     <div className="App" >
       <Container>
-        <Typography variant='h2'>My Shopping List</Typography>
+        <Typography variant='h2'>My Supermarket</Typography>
         <Divider sx={{ my: 5 }} variant="middle"></Divider>
         <Routes>
           <Route exact path='/' element={<List items={items} cart={cart} cartAmount={cartAmount} handleAddCartItem={handleAddCartItem} handleDeleteCartItem={handleDeleteCartItem} />} />
